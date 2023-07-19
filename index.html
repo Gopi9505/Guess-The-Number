@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">Guess the Number Game</h2>
+
+    <button id="start" class="btn" onclick="startGame()">Start</button>
+
+    <div id="box" class="box">
+      <p class="para">Guess a number between 1 and 5:</p>
+      <input type="number" id="userInput" placeholder="Enter here"><br>
+      <button class="btn" onclick="checkGuess()">Check</button>
+    </div>
+    <br>
+    <img src="" alt="">
+    <p id="msg"></p>
+    <button class="btn btn2" onclick="restart()">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
